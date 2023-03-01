@@ -17,6 +17,7 @@ wiringpi.pinMode(pin, 1)
 #MAIN
 for i in range(0,10):
     blink(pin)
+    print(i)
 
 #cleanup
 print("Done")    
